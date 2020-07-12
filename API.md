@@ -130,7 +130,7 @@ geocoder.addTo('#geocoder-container');
 
 #### Parameters
 
--   `container` **([String][57] | mapboxgl.Map)** A reference to the container to which to add the geocoder
+-   `container` **([String][57] \| [HTMLElement][70] | mapboxgl.Map)** A reference to the container to which to add the geocoder
 
 ### clear
 
@@ -138,7 +138,7 @@ Clear and then focus the input.
 
 #### Parameters
 
--   `ev` **[Event][70]?** the event that triggered the clear, if available
+-   `ev` **[Event][71]?** the event that triggered the clear, if available
 
 ### query
 
@@ -533,4 +533,6 @@ Returns **[MapboxGeocoder][69]** this
 
 [69]: #mapboxgeocoder
 
-[70]: https://developer.mozilla.org/docs/Web/API/Event
+[70]: https://developer.mozilla.org/docs/Web/HTML/Element
+
+[71]: https://developer.mozilla.org/docs/Web/API/Event
